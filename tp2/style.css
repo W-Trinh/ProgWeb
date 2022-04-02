@@ -1,0 +1,40 @@
+.topnav {
+  background-color: black;
+  color: grey;
+}
+
+.perso {
+  width: 400px;
+}
+
+.nomPerso {
+  background-color: black;
+  color: whitesmoke;
+  width: 400px;
+}
+
+.joueur {
+  height: 75px;
+  width: 100px;
+}
+
+.nomJoueur {
+  background-color: black;
+  color: whitesmoke;
+  width: 100px;
+}
+
+.row {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+img:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
+}
+
+body {
+  background-image: url("https://nexus.leagueoflegends.com/wp-content/uploads/2018/05/LOL_CMS_208_Article_01_wot3scfrgirua0i3tir1.png");
+}
+
+/*# sourceMappingURL=style.css.map */
