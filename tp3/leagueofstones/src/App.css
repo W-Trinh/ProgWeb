@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.topnav {
+  background-color: darkslategray;
+  color: white;
+}
+
+.carte{
+  width: 150px;
+}
+
+.statCarte{
+  background-color: grey;
+  color: white;
+  width: 150px;
+}
+
+.perso {
+  width: 400px;
+}
+
+.nomPerso {
+  background-color: black;
+  color: whitesmoke;
+  width: 400px;
+}
+
+.statPerso{
+  background-color: grey;
+  color: white;
+  width: 400px;
+}
+
+.joueur {
+  height: 75px;
+  width: 100px;
+}
+
+.nomJoueur {
+  background-color: black;
+  color: whitesmoke;
+  width: 100px;
+}
+
+.row {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.deck{
+  background-color: darkslategray;
+  height: 100%;
+  width: 100%;
+}
+
+img:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
+}
+
+h1{
+  color: white;
+}
+
+body {
+  background-image: url("https://nexus.leagueoflegends.com/wp-content/uploads/2018/05/LOL_CMS_208_Article_01_wot3scfrgirua0i3tir1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#test{
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
